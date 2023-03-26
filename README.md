@@ -45,7 +45,6 @@ Peut se faire simplement en utilisant kikit :
 
 ```
 cd hardware
-
 docker run --rm -w /kikit -v $PWD:/kikit yaqwsx/kikit kikit fab jlcpcb --assembly --no-drc --schematic LEC001020.kicad_sch --field LCSC --corrections JLCPCB_CORRECTION --nametemplate LEC001020_{} LEC001020.kicad_pcb prod/
 
 ```
@@ -54,6 +53,5 @@ docker run --rm -w /kikit -v $PWD:/kikit yaqwsx/kikit kikit fab jlcpcb --assembl
 
 [Manuel EN](docs/manual_en.pdf)
 
-[Manuel DE](docs/manual_de.pdf)
 ## License
 Tous nos fichiers sont plubliés sous la license CERN Open Hardware Licence Version 2 - Strongly Reciprocal
